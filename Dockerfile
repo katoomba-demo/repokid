@@ -1,4 +1,4 @@
-FROM python:3-alpine3.10
+FROM python:3-alpine3.8
 
 RUN pip install bandit coveralls && \
     pip install . && \
